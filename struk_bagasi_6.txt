@@ -1,0 +1,11 @@
+=== STRUK LAYANAN BAGASI ===
+ID: 6
+Nama Penumpang: Yusuf Syarif
+Kelas: Ekonomi
+Maskapai: Citilink
+Tanggal Transaksi: 2024-12-21
+Berat Bawaan: 12.0 kg
+Layanan Bagasi: Gold
+Harga Bagasi: Rp240000.0
+Kode Promo: PROMO10
+============================

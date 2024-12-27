@@ -1,0 +1,11 @@
+=== STRUK LAYANAN BAGASI ===
+ID: 3
+Nama Penumpang: Syafiq
+Kelas: Bisnis
+Maskapai: Singapore Airlines
+Tanggal Transaksi: 2024-12-21
+Berat Bawaan: 20.0 kg
+Layanan Bagasi: Gold
+Harga Bagasi: Rp400000.0
+Kode Promo: PROMO10
+============================
