@@ -30,7 +30,8 @@ public class PenjualanTiketView extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         btnPemesananTiket = new javax.swing.JButton();
         btnLayananMaskapai = new javax.swing.JButton();
-        btnLaporanPenjualan = new javax.swing.JButton();
+        btnPenumpang = new javax.swing.JButton();
+        btnManajemenData = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -72,10 +73,17 @@ public class PenjualanTiketView extends javax.swing.JFrame {
             }
         });
 
-        btnLaporanPenjualan.setText("Form Manajemen Data");
-        btnLaporanPenjualan.addActionListener(new java.awt.event.ActionListener() {
+        btnPenumpang.setText("Form Penumpang");
+        btnPenumpang.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnLaporanPenjualanActionPerformed(evt);
+                btnPenumpangActionPerformed(evt);
+            }
+        });
+
+        btnManajemenData.setText("Form Manajemen Data");
+        btnManajemenData.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnManajemenDataActionPerformed(evt);
             }
         });
 
@@ -86,10 +94,12 @@ public class PenjualanTiketView extends javax.swing.JFrame {
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addGap(194, 194, 194)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(btnLayananMaskapai, javax.swing.GroupLayout.DEFAULT_SIZE, 211, Short.MAX_VALUE)
-                    .addComponent(btnPemesananTiket, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btnLaporanPenjualan, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btnPenumpang, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(btnLayananMaskapai, javax.swing.GroupLayout.DEFAULT_SIZE, 211, Short.MAX_VALUE)
+                        .addComponent(btnPemesananTiket, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(btnManajemenData, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
@@ -101,8 +111,10 @@ public class PenjualanTiketView extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(btnLayananMaskapai, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(btnLaporanPenjualan, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 196, Short.MAX_VALUE))
+                .addComponent(btnManajemenData, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(btnPenumpang, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 173, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -131,10 +143,15 @@ public class PenjualanTiketView extends javax.swing.JFrame {
        this.dispose(); //Menuju menu layanan maskapai
     }//GEN-LAST:event_btnLayananMaskapaiActionPerformed
 
-    private void btnLaporanPenjualanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLaporanPenjualanActionPerformed
+    private void btnPenumpangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPenumpangActionPerformed
+        new PenumpangView().setVisible(true);
+       this.dispose(); //menuju menu penumpang
+    }//GEN-LAST:event_btnPenumpangActionPerformed
+
+    private void btnManajemenDataActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnManajemenDataActionPerformed
         new ManajemenDataView().setVisible(true);
        this.dispose(); //menuju menu manajemen data
-    }//GEN-LAST:event_btnLaporanPenjualanActionPerformed
+    }//GEN-LAST:event_btnManajemenDataActionPerformed
 
     /**
      * @param args the command line arguments
@@ -172,9 +189,10 @@ public class PenjualanTiketView extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnLaporanPenjualan;
     private javax.swing.JButton btnLayananMaskapai;
+    private javax.swing.JButton btnManajemenData;
     private javax.swing.JButton btnPemesananTiket;
+    private javax.swing.JButton btnPenumpang;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel3;
