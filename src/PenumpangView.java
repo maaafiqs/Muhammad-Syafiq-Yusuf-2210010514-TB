@@ -488,7 +488,7 @@ public class PenumpangView extends javax.swing.JFrame {
 
      //Menghapus Data di Database
     private void hapusDataPenumpang() {
-        // Pastikan ada baris yang dipilih
+        
         int row = tblPenumpang.getSelectedRow();
         if (row == -1) {
             JOptionPane.showMessageDialog(this, 
