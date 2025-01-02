@@ -1,0 +1,23 @@
+Laporan Layanan Bagasi
+========================
+ID   Nama Penumpang      Kelas     Maskapai            Tanggal Transaksi   Berat (Kg)     Layanan        Harga          Promo     
+1    Udin                Bisnis    Citilink            2024-12-12          12,00          Gold           600000,00      -         
+2    Udin                Bisnis    Garuda Indonesia    2024-12-13          12,00          Bronze         120000,00      PROMO10   
+3    Syafiq              Bisnis    Singapore Airlines  2024-12-21          20,00          Gold           400000,00      PROMO10   
+6    Yusuf Syarif        Ekonomi   Citilink            2024-12-21          12,00          Gold           240000,00      PROMO10   
+7    Muhammad            Bisnis    Singapore Airlines  2024-12-14          12,00          Gold           240000,00      PROMO20   
+8    Muhammad            Bisnis    Singapore Airlines  2024-12-14          12,00          Gold           240000,00      PROMO21   
+9    Muhammad            Bisnis    Singapore Airlines  2024-12-14          12,00          Gold           240000,00      PROMO10   
+10   Udin                Bisnis    Citilink            2024-12-07          20,00          Gold           400000,00      PROMO10   
+11   Syarif              Bisnis    Garuda Indonesia    2024-12-19          20,00          Gold           400000,00      PROMO10   
+12   Fika                Bisnis    Singapore Airlines  2024-12-21          12,00          Silver         180000,00      PROMO10   
+13   Udin                Bisnis    Singapore Airlines  2024-12-13          12,00          Bronze         120000,00      PROMO10   
+15   mamah               Bisnis    Citilink            2024-12-14          30,00          Gold           600000,00      -         
+17   df                  Ekonomi   Lion Air            2024-12-14          12,00          Gold           240000,00      -         
+18   Tau tau             Ekonomi   Garuda Indonesia    2024-12-13          12,00          Bronze         120000,00      -         
+19   Mahmud              Ekonomi   Garuda Indonesia    2024-12-28          12,00          Bronze         120000,00      -         
+20   Udin                Bisnis    Singapore Airlines  2024-12-13          12,00          Bronze         120000,00      PROMO20   
+21   Muhammad Hatta      Bisnis    Citilink            2025-01-02          10,00          Gold           200000,00      PROMO10   
+22   Syukran             Ekonomi   Garuda Indonesia    2025-01-03          12,00          Silver         162000,00      PROMO10   
+23   Ramlan              Ekonomi   Singapore Airlines  2025-01-04          12,00          Gold           216000,00      PROMO10   
+24   Pilana              Ekonomi   Citilink            2025-01-11          12,00          Gold           192000,00      PROMO20   

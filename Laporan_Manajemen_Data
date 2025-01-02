@@ -1,0 +1,8 @@
+=== Laporan Penjualan Tiket Pesawat ===
+
+No	Nama Penumpang	Kelas	Maskapai	Layanan Bagasi	Harga Tiket	Tanggal Transaksi	Tanggal Pesan	Tanggal Keberangkatan
+6	Mahmud S	Ekonomi	Citilink	Silver	2500000.0	2024-12-26	2024-12-26	2024-12-26
+7	Udin Noor	Ekonomi	Singapore Airlines	Gold	570000.0	2024-12-11	2024-12-11	2024-12-27
+8	Syafiq	Ekonomi	Singapore Airlines	Gold	760000.0	2024-12-05	2024-12-05	2024-12-27
+
+=== Akhir Laporan ===
